@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+#navBar {
+  background-color: #0C1618;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  bottom: 255px;
+  overflow: hidden;
+}
+
+.navitems{
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+#logo {
+  width: 300px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  top: 160px;
+}
+
+.search {
+  position: relative;
+  left: 1145px;
+  top: 50px;
+}
+
+.search input[type=text] {
+  width: 175px;
+  height: 30px;
+  font-size: 16px;
+  position: relative;
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.searchButton {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 31px;
+  border: none;
+  background: #096A2E;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  right: 5px;
+  top: 0px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+ul {
+  margin-left: 390px;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li a {
+  margin: 0;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #096A2E;
+}
+
+a {
+  text-decoration: none;
+}
+
+#loginbtn {
+  position: relative;
+  color: white;
+  top: 3px;
+  left: 290px;
+  width: 65px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+
+#dividerp{
+  color: white;
+  font-size: 17px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#signbtn {
+  position: relative;
+  color: white;
+  top: -30px;
+  left: 370px;
+  width: 65px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  text-wrap: nowrap;
+}
+
+#signuptext {
+  position: relative;
+  color: white;
+  bottom: 11px;
+  left: 428px;
+  font-size: 18px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#signbtn:hover{
+  background-color: #096A2E;
+}
+#loginbtn:hover{
+  background-color:#096A2E
+}
